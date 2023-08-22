@@ -6,6 +6,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 # List of jobs
 # A "job" is a set of steps that are executed on the same runner
