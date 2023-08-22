@@ -31,6 +31,11 @@ jobs:
     - name: Install dependencies
       run: yarn install
 
+    - name: TypeScript report
+      uses: fersilva16/ts-report-action@1.1.0
+      with:
+        project: path/to/tsconfig.json
+
     # Deploy to Netlify
     - name: Netlify Deploy
       uses: jsmrcaga/action-netlify-deploy@v2.0.0
