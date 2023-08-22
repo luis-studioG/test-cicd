@@ -31,6 +31,7 @@ jobs:
     - name: Install dependencies
       run: yarn install
 
+    # Check TS errors
     - name: TypeScript report
       uses: fersilva16/ts-report-action@1.1.0
       with:
