@@ -27,6 +27,13 @@ function App() {
         <p>
           Testing workflows on Github
         </p>
+        <ol>
+          <li>1. Created repo on Github with some base code</li>
+          <li>2. Created .github/workflows folder with prod.yaml file</li>
+          <li>3. Introduced some basic checks inside</li>
+          <li>4. Created Netlify secret tokens</li>
+          <li>4. Commit changes and push the code to master to see deployments under Action tab on Github</li>
+        </ol>
       </div>
     </>
   )
