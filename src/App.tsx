@@ -34,8 +34,6 @@ function App() {
           <li>Created Netlify secret tokens</li>
           <li>Commit changes and push the code to master to see deployments under Action tab on Github</li>
         </ol>
-
-        <p>Added TS check</p>
       </div>
     </>
   )
