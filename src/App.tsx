@@ -27,7 +27,7 @@ function App() {
         <p>
           Testing workflows on Github
         </p>
-        <ol>
+        <ol className=''>
           <li>Created repo on Github with some base code</li>
           <li>Created .github/workflows folder with prod.yaml file</li>
           <li>Introduced some basic checks inside</li>
