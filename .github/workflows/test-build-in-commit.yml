@@ -3,6 +3,7 @@ name: Test build on every (branch) commit
 on:
   # workflow_dispatch
   pull_request:
+  push:
     branches:
       - dev
 
