@@ -1,0 +1,21 @@
+
+name: Test build on every (branch) commit
+on:
+  # workflow_dispatch
+  push:
+    branches-ignore:
+      - dev
+      - launchpad
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Get the dev branch
+      - uses: actions/checkout@v3
+
+      # Set up node
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
