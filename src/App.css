@@ -35,6 +35,14 @@
 
 .card {
   padding: 2em;
+  display: column;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .read-the-docs {
