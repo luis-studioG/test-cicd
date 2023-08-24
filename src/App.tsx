@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState<number>(0)
 
   return (
     <>
@@ -16,18 +16,23 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + CI CD</h1>
+      <h1>Vite + React + CI/CD</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <div className='buttons-container'>
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+          <button onClick={() => setCount(0)}>
+            Reset count
+          </button>
+        </div>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
         <p>
           Testing workflows on Github
         </p>
-        <ol>
+        <ol className=''>
           <li>Created repo on Github with some base code</li>
           <li>Created .github/workflows folder with prod.yaml file</li>
           <li>Introduced some basic checks inside</li>
