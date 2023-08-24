@@ -73,6 +73,10 @@ module.exports = {
         alwaysTryTypes: true,
         project: "./",
       },
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
     },
     "import/parsers": {
       "@typescript-eslint/parser": [".ts"],
