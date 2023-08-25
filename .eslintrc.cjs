@@ -11,12 +11,6 @@ module.exports = {
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
   plugins: ["@typescript-eslint"],
   rules: {
     "import/extensions": [
@@ -74,8 +68,8 @@ module.exports = {
         project: "./",
       },
       node: {
-        paths: ['src'],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        paths: ["src"],
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
     "import/parsers": {

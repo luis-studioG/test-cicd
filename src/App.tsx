@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App():JSX.Element {
+function App(): JSX.Element {
   const [count, setCount] = useState<number>(0)
   return (
     <>
@@ -18,10 +18,11 @@ function App():JSX.Element {
       <h1>Vite + React + CI/CD</h1>
       <div className="card">
         <div className='buttons-container'>
-          <button onClick={() => setCount((item) => item + 1)}>
-            count is {count}
-          </button>
-          <button onClick={() => setCount(0)}>
+            <button onClick={() => setCount((item: number): number => item + 1)
+            }>
+              Count is {count}
+            </button>
+            <button onClick={() => setCount(0)}>
             Reset count
           </button>
         </div>
