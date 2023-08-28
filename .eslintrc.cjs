@@ -21,7 +21,7 @@ module.exports = {
         ts: "never",
       },
     ],
-    "@typescript-eslint/explicit-function-return-type": 2,
+    "@typescript-eslint/explicit-function-return-type": 0,
     "import/prefer-default-export": "off",
     "class-methods-use-this": 0,
     "no-underscore-dangle": 0,
