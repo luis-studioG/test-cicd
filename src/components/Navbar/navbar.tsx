@@ -1,7 +1,7 @@
 import reactLogo from "../../assets/react.svg";
 import "./navbar.css";
 
-const Navbar = () =>
+export const Navbar = () =>
         <nav className="nav-wrapper">
             <div className="title-container">
                 <span>Learning CI/CD</span>
