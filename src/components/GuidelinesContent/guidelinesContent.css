@@ -1,0 +1,27 @@
+.card {
+  padding: 2em;
+  display: column;
+  justify-content: flex-start;
+  margin-top: 6rem;
+}
+
+.list-container {
+  text-align: initial;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
