@@ -9,9 +9,9 @@ jobs:
     uses: studiographene/nodejs-ci/.github/workflows/ci.yml@master
     with:
       project_name: microservice-boilerplate
-      package_manager: pnpm
-      build_command: pnpm run build
-      lint_command: pnpm run lint
+      package_manager: yarn
+      build_command: yarn run build
+      lint_command: yarn run lint
       excluded_jobs: docker
     secrets: inherit
     permissions: write-all
