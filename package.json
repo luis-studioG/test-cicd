@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "qwerty-test-for-cicd",
+=======
+  "name": "luis-test-cicd",
+>>>>>>> 2d05f15 (change name)
   "private": true,
   "version": "0.0.0",
   "type": "module",
