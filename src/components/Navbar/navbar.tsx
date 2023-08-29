@@ -10,7 +10,7 @@ export const Navbar = () =>
                 </a>
             </div>
             <ul className="list">
-                <li>CI checks at SG</li>/
+                <li>CI checks at SG</li>
             </ul>
         </nav>;
 
