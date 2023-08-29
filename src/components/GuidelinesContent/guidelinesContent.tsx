@@ -46,7 +46,7 @@ export const GuidelinesContent = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Github Actions
+        Github actions
       </a>
     </p>
   </div>
