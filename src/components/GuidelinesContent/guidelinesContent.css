@@ -2,7 +2,7 @@
   padding: 2em;
   display: column;
   justify-content: flex-start;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .list-container {
@@ -17,4 +17,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.create-yaml-img {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 800px;
 }

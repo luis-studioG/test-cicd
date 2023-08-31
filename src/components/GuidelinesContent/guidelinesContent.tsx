@@ -1,5 +1,6 @@
-// import { useState } from "react";
-import "./guidelinesContent.css";
+import "./GuidelinesContent.css";
+import createYaml from "../../assets/images/create-yaml.png"
+import actions from "../../assets/images/actions-tab.png"
 
 export const GuidelinesContent = () => (
   <div className="card">
@@ -9,7 +10,9 @@ export const GuidelinesContent = () => (
         Created repo on Github with some base code. Tip: you can use{" "}
         <i>yarn create vite</i>
       </li>
-      <li>Created .github/workflows folder with ci.yaml file</li>
+      <li>Created .github/workflows folder with ci.yaml file
+        <img src={createYaml} alt="createYaml" className="create-yaml-img"></img>
+      </li>
       <li>
         Add .eslintrc.cjs file from{" "}
         <a
@@ -36,6 +39,7 @@ export const GuidelinesContent = () => (
       </li>
       <li>
         Check your repo tab <b>Actions</b> to see your pipeline running
+        <img src={actions} alt="actions" className="create-yaml-img"></img>
       </li>
     </ol>
 
