@@ -1,5 +1,5 @@
 import reactLogo from "../../assets/react.svg";
-import "./Navbar.css";
+import "./index.css";
 
 export const Navbar = () => (
   <nav className="nav-wrapper">

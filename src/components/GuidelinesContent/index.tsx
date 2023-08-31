@@ -1,4 +1,4 @@
-import "./GuidelinesContent.css";
+import "./index.css";
 import createYaml from "../../assets/images/create-yaml.png";
 import actions from "../../assets/images/actions-tab.png";
 
