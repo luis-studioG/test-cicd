@@ -14,8 +14,6 @@ jobs:
     steps:
       # Get the dev branch
       - uses: actions/checkout@v3
-      # Using SHA's keys
-      - uses: actions/javascript-action@a824008085750b8e136effc585c3cd6082bd575f
 
       # Set up node
       - uses: actions/setup-node@v3
