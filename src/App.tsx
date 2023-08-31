@@ -9,6 +9,7 @@ function App(): JSX.Element {
       <Navbar />
       <GuidelinesContent />
       <CiChecksContent />
+      
     </>
   );
 }
