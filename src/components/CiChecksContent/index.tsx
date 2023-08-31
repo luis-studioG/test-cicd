@@ -1,4 +1,4 @@
-import "./CiChecksContent.css";
+import "./index.css";
 import pipeline from "../../assets/images/pipeline.png";
 
 export const CiChecksContent = () => (
