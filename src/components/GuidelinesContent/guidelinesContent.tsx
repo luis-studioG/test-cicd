@@ -1,6 +1,6 @@
 import "./GuidelinesContent.css";
-import createYaml from "../../assets/images/create-yaml.png"
-import actions from "../../assets/images/actions-tab.png"
+import createYaml from "../../assets/images/create-yaml.png";
+import actions from "../../assets/images/actions-tab.png";
 
 export const GuidelinesContent = () => (
   <div className="card">
@@ -10,8 +10,13 @@ export const GuidelinesContent = () => (
         Created repo on Github with some base code. Tip: you can use{" "}
         <i>yarn create vite</i>
       </li>
-      <li>Created .github/workflows folder with ci.yaml file
-        <img src={createYaml} alt="createYaml" className="create-yaml-img"></img>
+      <li>
+        Created .github/workflows folder with ci.yaml file
+        <img
+          src={createYaml}
+          alt="createYaml"
+          className="create-yaml-img"
+        ></img>
       </li>
       <li>
         Add .eslintrc.cjs file from{" "}
