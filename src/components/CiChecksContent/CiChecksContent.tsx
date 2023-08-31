@@ -1,5 +1,5 @@
 import "./CiChecksContent.css";
-import pipeline from "../../assets/images/pipeline.png"
+import pipeline from "../../assets/images/pipeline.png";
 
 export const CiChecksContent = () => (
   <div className="checks-card">

@@ -9,10 +9,8 @@ function App(): JSX.Element {
       <Navbar />
       <GuidelinesContent />
       <CiChecksContent />
-
     </>
   );
 }
 
 export default App;
-

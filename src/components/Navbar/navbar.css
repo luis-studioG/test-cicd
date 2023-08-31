@@ -1,8 +1,8 @@
 .nav-wrapper {
-    border-bottom: 1px solid white;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
 .logo {
@@ -45,5 +45,5 @@
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
