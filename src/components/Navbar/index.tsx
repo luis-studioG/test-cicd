@@ -8,6 +8,7 @@ export const Navbar = () => (
       <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
+      <p>Hello aws</p>
     </div>
   </nav>
 );
