@@ -1,16 +1,20 @@
 import reactLogo from "../../assets/react.svg";
 import "./index.css";
 
-export const Navbar = () => (
+export const Navbar = () => {
+  const country = import.meta.env.VITE_DEFAULT_COUNTRY;
+  const project = import.meta.env.VITE_PROJECT_NAME;
+
+  return (
   <nav className="nav-wrapper">
     <div className="title-container">
-      <h3>Learning CI/CD</h3>
+      <h3>Learning CI/CD - {project}, {country}</h3>
       <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
-      <p>Hello aws</p>
     </div>
   </nav>
-);
+  )
+};
 
 export default Navbar;
