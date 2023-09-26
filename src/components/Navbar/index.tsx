@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
   <nav className="nav-wrapper">
     <div className="title-container">
-      <h3>{project} - {country}</h3>
+      <h4>{project} - {country}</h4>
       <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
